@@ -11,7 +11,10 @@ let answer = document.querySelector("#answer");
 
 button.addEventListener("click", function() {
 
-    let randomNumber = 3;
+    const answer = document.querySelector("#answer");
+
+    let randomNumber = Math.floor(Math.random() * 4)
+
 
     let answerText = "";
     //proceedure goes here
@@ -21,7 +24,7 @@ button.addEventListener("click", function() {
     }
     //1-> nah
     else if (randomNumber == 1) {
-        answerText = "down and give me twenty!!"
+        answerText = "down and give me twenty!!!"
     }
     //2-> "try again"
     else if (randomNumber == 2) {
@@ -33,6 +36,6 @@ button.addEventListener("click", function() {
     }
     answer.innerHTML = answerText;
 
-    console.log(answerText)
+    console.log(answerText);
     //generate a rando number from the question.
-})
+});
