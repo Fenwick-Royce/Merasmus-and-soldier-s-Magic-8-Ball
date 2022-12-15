@@ -31,7 +31,7 @@ button.addEventListener("click", function() {
         answerText = "Last one alive lock the door!!"
     }
     //3-> "doomkoft!"
-    else     if (randomNumber == 3) {
+    else if (randomNumber == 3) {
         answerText = "SPY!!!"
     }
     else if (randomNumber == 5) {
