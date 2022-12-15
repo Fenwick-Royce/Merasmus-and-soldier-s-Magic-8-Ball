@@ -1,8 +1,14 @@
+* {
+    font-family: sans-serif;
+}
+
 #content {
     color: white;
     width: 400px !important;
     margin: auto !important;
     text-align: center;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 #eightBall {
@@ -10,4 +16,14 @@
     height: 350px;
     background: black !important;
     color: white !important;
+    margin: auto !important;
+    margin-top: 10px;
+    border-radius: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#answer {
+    font-size: 25px !important;
 }
